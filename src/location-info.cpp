@@ -1,5 +1,6 @@
 #include "XPLMDisplay.h"
 #include "XPLMGraphics.h"
+#include "XPLMUtilities.h"
 #include <string.h>
 #if IBM
 	#include <windows.h>
@@ -24,6 +25,8 @@ PLUGIN_API int XPluginStart(
 	strcpy(outName, "LocationInfoPlugin");
 	strcpy(outSig, "laurenzo.LocationInfoPlugin");
 	strcpy(outDesc, "A plug-in that shows info of the location you are flying in");
+
+	XPLMDebugString("Starting Location Info plugin\n");
 	
 }
 
