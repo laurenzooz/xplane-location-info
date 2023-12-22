@@ -13,8 +13,8 @@
 	#include <GL/gl.h>
 #endif
 
-#ifndef XPLM300
-	#error This is made to be compiled against the XPLM300 SDK
+#ifndef XPLM400
+	#error This is made to be compiled against the XPLM400 SDK
 #endif
 
 PLUGIN_API int XPluginStart(
